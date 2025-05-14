@@ -124,12 +124,12 @@ Here’s what Real Estate Sales Quest looks like in action:
 
 ### Extension Icon and Branding
 
-![Real Estate Sales Quest - Branding](./path/to/realestatesalesquest1.png)
+![Real Estate Sales Quest - Branding](realestatesalesquest1.png)
 
 ### 90-Day Prospecting Tracker – Contacts
 
-![Contacts Tracker](./path/to/realestatesalesquest3.png)
+![Contacts Tracker](realestatesalesquest3.png)
 
 ### 90-Day Prospecting Tracker – Appointments
 
-![Appointments Tracker](./path/to/realestatesalesquest2.png)
+![Appointments Tracker](realestatesalesquest2.png)
