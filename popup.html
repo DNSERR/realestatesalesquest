@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate Sales Quest</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <header>
+        <img id="appIcon" src="./icons/icon128.png" alt="Real Estate Sales Quest logo" class="icon">
+        <h1>Real Estate Sales Quest</h1>
+    </header>
+
+    <main>
+        <!-- 90-Day Prospecting Tracker Section -->
+        <section id="trackingSection" aria-labelledby="trackingHeader">
+            <h2 id="trackingHeader">90-Day Prospecting Tracker</h2>
+
+            <div class="tracker-container">
+                <h3 id="contactsHeader">Contacts</h3>
+                <div class="grid-header" aria-hidden="true">
+                    <div>Mon</div>
+                    <div>Tue</div>
+                    <div>Wed</div>
+                    <div>Thu</div>
+                    <div>Fri</div>
+                    <div>Sat</div>
+                    <div>Sun</div>
+                </div>
+                <div id="contactGrid" class="grid" aria-labelledby="contactsHeader"></div>
+                <p id="contactTotal" class="total-display">Total Contacts: 0</p>
+            </div>
+
+            <div class="tracker-container">
+                <h3 id="appointmentsHeader">Appointments</h3>
+                <div class="grid-header" aria-hidden="true">
+                    <div>Mon</div>
+                    <div>Tue</div>
+                    <div>Wed</div>
+                    <div>Thu</div>
+                    <div>Fri</div>
+                    <div>Sat</div>
+                    <div>Sun</div>
+                </div>
+                <div id="appointmentGrid" class="grid" aria-labelledby="appointmentsHeader"></div>
+                <p id="appointmentTotal" class="total-display">Total Appointments: 0</p>
+            </div>
+
+            <div id="progressDisplay"></div>
+        </section>
+
+        <!-- Property Flyer Creator Section -->
+        <section id="flyerSection" aria-labelledby="flyerHeader">
+            <h2 id="flyerHeader">Property Information</h2>
+            <form id="flyerForm" name="flyerForm">
+                <fieldset>
+                    <legend>Property Details</legend>
+                    <div class="form-group">
+                        <label for="title">Title:</label>
+                        <input type="text" id="title" name="title" required aria-required="true">
+                        <div id="title-error" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="description">Description:</label>
+                        <textarea id="description" name="description" rows="3" required aria-required="true"></textarea>
+                        <div id="description-error" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address:</label>
+                        <input type="text" id="address" name="address" required aria-required="true">
+                        <div id="address-error" class="error-message"></div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="listPrice">List Price:</label>
+                            <input type="text" id="listPrice" name="listPrice" required aria-required="true" pattern="^\$?[\d,]+(\.\d{2})?$" title="Enter a valid price (e.g. $300,000 or 300000)">
+                            <div id="listPrice-error" class="error-message"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="livingSpace">Living Space (sq ft/ sq m):</label>
+                            <input type="number" id="livingSpace" name="livingSpace" required aria-required="true" min="0">
+                            <div id="livingSpace-error" class="error-message"></div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="lotSize">Lot Size (sq ft/sq m):</label>
+                            <input type="number" id="lotSize" name="lotSize" required aria-required="true" min="0">
+                            <div id="lotSize-error" class="error-message"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="bedrooms">Bedrooms:</label>
+                            <input type="number" id="bedrooms" name="bedrooms" required aria-required="true" min="0">
+                            <div id="bedrooms-error" class="error-message"></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="bathrooms">Bathrooms:</label>
+                            <input type="number" id="bathrooms" name="bathrooms" step="0.5" required aria-required="true" min="0">
+                            <div id="bathrooms-error" class="error-message"></div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="propertyWebsite">Property Website:</label>
+                        <input type="url" id="propertyWebsite" name="propertyWebsite" required aria-required="true">
+                        <div id="propertyWebsite-error" class="error-message"></div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Agent Details</legend>
+                    <div class="form-group">
+                        <label for="agentName">Agent Name:</label>
+                        <input type="text" id="agentName" name="agentName" required aria-required="true">
+                        <div id="agentName-error" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="agentNumber">Agent Number:</label>
+                        <input type="tel" id="agentNumber" name="agentNumber" required aria-required="true">
+                        <div id="agentNumber-error" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="agentEmail">Agent Email:</label>
+                        <input type="email" id="agentEmail" name="agentEmail" required aria-required="true">
+                        <div id="agentEmail-error" class="error-message"></div>
+                    </div>
+                    <div class="form-group">
+                        <label for="agentDRE">Agent DRE Number:</label>
+                        <input type="text" id="agentDRE" name="agentDRE" required aria-required="true">
+                        <div id="agentDRE-error" class="error-message"></div>
+                    </div>
+                </fieldset>
+
+                <div class="button-container">
+                    <button type="button" id="sendEmailButton">Send Email</button>
+                    <button type="button" id="printButton">Print Progress</button>
+                    <button type="button" id="downloadDataBtn">Download Data</button>
+                    <button type="button" id="clearDataBtn">Clear Data</button>
+                </div>
+            </form>
+        </section>
+
+        <div id="trialMessage"></div>
+    </main>
+
+    <div id="messageContainer" role="alert" aria-live="polite"></div>
+
+    <script src="popup.js"></script>
+</body>
+</html>

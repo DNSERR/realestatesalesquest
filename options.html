@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Realtor Rocket Ad Blast - Options</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+
+  <!-- Options Page Header -->
+  <header>
+    <h1 id="optionsHeader">Realtor Rocket Ad Blast Options</h1>
+    <p>Customize your settings below:</p>
+  </header>
+
+  <!-- Options Form -->
+  <form id="optionsForm" aria-labelledby="optionsHeader">
+    <fieldset>
+      <legend>Settings</legend>
+
+      <!-- Default Theme Color -->
+      <div class="form-group">
+        <label for="themeColor">Default Theme Color:</label>
+        <input type="color" id="themeColor" name="themeColor" aria-label="Choose default theme color">
+        <div id="themeColor-error" class="error-message" aria-live="polite"></div>
+      </div>
+
+      <!-- Enable Notifications -->
+      <div class="form-group">
+        <label for="notifications">Enable Notifications:</label>
+        <input type="checkbox" id="notifications" name="notifications">
+      </div>
+
+      <!-- Save Button -->
+      <div class="form-group">
+        <button type="button" id="saveOptions" aria-label="Save your settings">Save Options</button>
+      </div>
+    </fieldset>
+  </form>
+
+  <!-- Success Message -->
+  <div id="successMessage" role="alert" aria-live="polite" class="success-message" hidden>
+    Options saved successfully!
+  </div>
+
+  <!-- Error Message Container -->
+  <div id="errorContainer" role="alert" aria-live="assertive" class="error-message" hidden></div>
+
+  <!-- Subscription Status -->
+  <div id="subscriptionStatus" role="status" aria-live="polite"></div>
+
+  <script src="options.js"></script>
+</body>
+</html>
