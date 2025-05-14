@@ -120,8 +120,6 @@ Feel free to remix, fork, and build upon it for personal or commercial use.
 
 ## Preview
 
-Here’s what Real Estate Sales Quest looks like in action:
-
 ### Extension Icon and Branding
 
 ![Real Estate Sales Quest - Branding](realestatesalesquest1.png)
