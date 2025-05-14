@@ -116,3 +116,20 @@ Feel free to remix, fork, and build upon it for personal or commercial use.
 
 ---
 
+---
+
+## Preview
+
+Here’s what Real Estate Sales Quest looks like in action:
+
+### Extension Icon and Branding
+
+![Real Estate Sales Quest - Branding](./path/to/Screenshot-2025-05-14-at-10.35.11-AM.png)
+
+### 90-Day Prospecting Tracker – Contacts
+
+![Contacts Tracker](./path/to/Screenshot-2025-05-14-at-10.35.20-AM.png)
+
+### 90-Day Prospecting Tracker – Appointments
+
+![Appointments Tracker](./path/to/Screenshot-2025-05-14-at-10.35.37-AM.png)
