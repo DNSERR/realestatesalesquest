@@ -66,6 +66,11 @@ Real Estate Sales Quest is localized in:
 - Portuguese  
 - Russian  
 - Tamil
+- Spanish
+- Gujarati
+- Hindi
+- French
+- Italian
 
 This makes it accessible to agents around the world, and we welcome further translation contributions via GitHub.
 
