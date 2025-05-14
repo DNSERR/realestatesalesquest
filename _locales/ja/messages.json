@@ -1,0 +1,38 @@
+{
+    "appName": {
+      "message": "不動産営業クエスト",
+      "description": "拡張機能の正式名称。"
+    },
+    "appShortName": {
+      "message": "不動産営業クエスト",
+      "description": "拡張機能の略称。"
+    },
+    "appDescription": {
+      "message": "強力なChrome拡張機能で不動産キャリアを向上させましょう。日々の連絡先や予約を追跡し、90日間の販売進捗を可視化し、Gmailを通じてマーケティングを行います。見込み客開拓の習得と生産性向上に最適です！",
+      "description": "拡張機能の説明。"
+    },
+    "launchCommandDescription": {
+      "message": "不動産営業クエストを起動",
+      "description": "拡張機能を起動するキーボードショートカットの説明。"
+    },
+    "authorName": {
+      "message": "クラブ ディパリ",
+      "description": "拡張機能の作者。"
+    },
+    "trackingFeature": {
+      "message": "インタラクティブな90日トラッカー",
+      "description": "主要な追跡機能の説明。"
+    },
+    "flyerFeature": {
+      "message": "Gmailを通じたマーケティングメール",
+      "description": "メール作成機能の説明。"
+    },
+    "progressFeature": {
+      "message": "動的な進捗可視化",
+      "description": "進捗可視化機能の説明。"
+    },
+    "trialPeriod": {
+      "message": "7日間の無料トライアル",
+      "description": "トライアル期間に関する情報。"
+    }
+  }

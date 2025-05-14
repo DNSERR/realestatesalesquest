@@ -1,0 +1,38 @@
+{
+    "appName": {
+      "message": "Real Estate Sales Quest",
+      "description": "The full name of the extension."
+    },
+    "appShortName": {
+      "message": "Real Estate Sales Quest",
+      "description": "The short name of the extension."
+    },
+    "appDescription": {
+      "message": "Elevate your real estate career with our powerful Chrome extension. Track daily contacts",
+      "description": "The description of the extension."
+    },
+    "launchCommandDescription": {
+      "message": "Launch Real Estate Sales Quest",
+      "description": "Description for the keyboard shortcut to launch the extension."
+    },
+    "authorName": {
+      "message": "Club DiPali",
+      "description": "The author of the extension."
+    },
+    "trackingFeature": {
+      "message": "Interactive 90-Day Tracker",
+      "description": "Description of the main tracking feature."
+    },
+    "flyerFeature": {
+      "message": "Marketing Email through your Gmail",
+      "description": "Description of the email creation feature."
+    },
+    "progressFeature": {
+      "message": "Dynamic Progress Visualization",
+      "description": "Description of the progress visualization feature."
+    },
+    "trialPeriod": {
+      "message": "7-day free trial",
+      "description": "Information about the trial period."
+    }
+  }

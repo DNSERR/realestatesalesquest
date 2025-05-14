@@ -1,0 +1,38 @@
+{
+    "appName": {
+      "message": "Real Estate Sales Quest",
+      "description": "Le nom complet de l'extension."
+    },
+    "appShortName": {
+      "message": "Real Estate Sales Quest",
+      "description": "Le nom court de l'extension."
+    },
+    "appDescription": {
+      "message": "Faites progresser votre carrière immobilière avec notre puissante extension Chrome. Suivez les contacts et rendez-vous quotidiens, visualisez votre progression des ventes sur 90 jours et faites du marketing via Gmail. Parfait pour maîtriser la prospection et booster la productivité !",
+      "description": "La description de l'extension."
+    },
+    "launchCommandDescription": {
+      "message": "Lancer Real Estate Sales Quest",
+      "description": "Description du raccourci clavier pour lancer l'extension."
+    },
+    "authorName": {
+      "message": "Club DiPali",
+      "description": "L'auteur de l'extension."
+    },
+    "trackingFeature": {
+      "message": "Suivi Interactif sur 90 Jours",
+      "description": "Description de la principale fonctionnalité de suivi."
+    },
+    "flyerFeature": {
+      "message": "Email Marketing via votre Gmail",
+      "description": "Description de la fonctionnalité de création d'email."
+    },
+    "progressFeature": {
+      "message": "Visualisation Dynamique de la Progression",
+      "description": "Description de la fonctionnalité de visualisation de la progression."
+    },
+    "trialPeriod": {
+      "message": "Essai gratuit de 7 jours",
+      "description": "Information sur la période d'essai."
+    }
+  }

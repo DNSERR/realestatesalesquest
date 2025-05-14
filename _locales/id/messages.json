@@ -1,0 +1,38 @@
+{
+    "appName": {
+      "message": "Real Estate Sales Quest",
+      "description": "Nama lengkap ekstensi."
+    },
+    "appShortName": {
+      "message": "Real Estate Sales Quest",
+      "description": "Nama singkat ekstensi."
+    },
+    "appDescription": {
+      "message": "Tingkatkan karir real estate Anda dengan ekstensi Chrome kami yang canggih. Lacak kontak dan janji temu harian, visualisasikan kemajuan penjualan 90 hari Anda, dan lakukan pemasaran melalui Gmail. Sempurna untuk menguasai prospek dan meningkatkan produktivitas!",
+      "description": "Deskripsi ekstensi."
+    },
+    "launchCommandDescription": {
+      "message": "Jalankan Real Estate Sales Quest",
+      "description": "Deskripsi untuk pintasan keyboard untuk menjalankan ekstensi."
+    },
+    "authorName": {
+      "message": "Club DiPali",
+      "description": "Penulis ekstensi."
+    },
+    "trackingFeature": {
+      "message": "Pelacak Interaktif 90 Hari",
+      "description": "Deskripsi fitur pelacakan utama."
+    },
+    "flyerFeature": {
+      "message": "Email Pemasaran melalui Gmail Anda",
+      "description": "Deskripsi fitur pembuatan email."
+    },
+    "progressFeature": {
+      "message": "Visualisasi Kemajuan Dinamis",
+      "description": "Deskripsi fitur visualisasi kemajuan."
+    },
+    "trialPeriod": {
+      "message": "Uji coba gratis 7 hari",
+      "description": "Informasi tentang periode uji coba."
+    }
+  }

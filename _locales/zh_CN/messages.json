@@ -1,0 +1,38 @@
+{
+    "appName": {
+      "message": "房地产销售任务",
+      "description": "扩展的完整名称。"
+    },
+    "appShortName": {
+      "message": "房地产销售任务",
+      "description": "扩展的简称。"
+    },
+    "appDescription": {
+      "message": "使用我们强大的Chrome扩展提升您的房地产事业。追踪每日联系人和预约，可视化您的90天销售进度，并通过Gmail进行营销。完美适用于掌握潜在客户开发和提高生产力！",
+      "description": "扩展的描述。"
+    },
+    "launchCommandDescription": {
+      "message": "启动房地产销售任务",
+      "description": "用于启动扩展的键盘快捷键描述。"
+    },
+    "authorName": {
+      "message": "Club DiPali",
+      "description": "扩展的作者。"
+    },
+    "trackingFeature": {
+      "message": "交互式90天追踪器",
+      "description": "主要追踪功能的描述。"
+    },
+    "flyerFeature": {
+      "message": "通过您的Gmail发送营销邮件",
+      "description": "邮件创建功能的描述。"
+    },
+    "progressFeature": {
+      "message": "动态进度可视化",
+      "description": "进度可视化功能的描述。"
+    },
+    "trialPeriod": {
+      "message": "7天免费试用",
+      "description": "关于试用期的信息。"
+    }
+  }
